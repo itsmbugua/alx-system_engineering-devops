@@ -1,1 +1,1 @@
-doing hard things
+shell basics devops
