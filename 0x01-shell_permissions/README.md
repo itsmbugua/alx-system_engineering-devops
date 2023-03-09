@@ -8,4 +8,6 @@ chmod ugo+x hello=add execution permission to hello users
 chmod ug-rwx,o+rwx hello=removing all permissions from owner and group and giving others all permissions
 chmod u+rwx,g+rx'o-r hello=adding all permissions to the owner,read exucute permission to group and removing read permission from others
 chmod --reference=hello olleh =copying permissions from hello to olleh
+chmod a+X * =give execution permission to only the dir in the working dir leaving the files
+mkdir my_dir; chmod 751 my_dir =create a dir my_dir and give permissions 751
 
