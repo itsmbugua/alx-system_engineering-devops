@@ -7,4 +7,5 @@ chmod u+x hello=add execution permission to owner of hello
 chmod ugo+x hello=add execution permission to hello users
 chmod ug-rwx,o+rwx hello=removing all permissions from owner and group and giving others all permissions
 chmod u+rwx,g+rx'o-r hello=adding all permissions to the owner,read exucute permission to group and removing read permission from others
+chmod --reference=hello olleh =copying permissions from hello to olleh
 
