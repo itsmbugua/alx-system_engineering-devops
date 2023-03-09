@@ -9,5 +9,5 @@
 9.chmod u+rwx,g+rx'o-r hello=adding all permissions to the owner,read exucute permission to group and removing read permission from others
 10.chmod --reference=hello olleh =copying permissions from hello to olleh
 11.chmod a+X * =give execution permission to only the dir in the working dir leaving the files
-12.mkdir my_dir; chmod 751 my_dir =create a dir my_dir and give permissions 751
+12.mkdir -m 751 my_dir =create a dir my_dir and give permissions 751
 13.chgrp school hello=change the group owner of file hello 
